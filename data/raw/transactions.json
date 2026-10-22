@@ -1,0 +1,1773 @@
+[
+  {
+    "transaction_id": 1001,
+    "org_id": 37,
+    "date": "2026-04-09",
+    "amount": 176290.67,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1002,
+    "org_id": 15,
+    "date": "2026-05-29",
+    "amount": 246312.77,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1003,
+    "org_id": 7,
+    "date": "2026-07-14",
+    "amount": 69854.41,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1004,
+    "org_id": 24,
+    "date": "2026-03-25",
+    "amount": 92860.15,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1005,
+    "org_id": 18,
+    "date": "2026-02-06",
+    "amount": 152478.19,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1006,
+    "org_id": 47,
+    "date": "2026-05-06",
+    "amount": 41268.92,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1007,
+    "org_id": 41,
+    "date": "2026-10-13",
+    "amount": 55293.99,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1008,
+    "org_id": 4,
+    "date": "2026-04-28",
+    "amount": 205539.75,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1009,
+    "org_id": 26,
+    "date": "2026-05-18",
+    "amount": 17014.06,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1010,
+    "org_id": 37,
+    "date": "2026-06-11",
+    "amount": 53550.32,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1011,
+    "org_id": 42,
+    "date": "2026-08-23",
+    "amount": 36146.46,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1012,
+    "org_id": 48,
+    "date": "2026-10-15",
+    "amount": 134974.83,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1013,
+    "org_id": 28,
+    "date": "2026-07-24",
+    "amount": 90818.11,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1014,
+    "org_id": 9,
+    "date": "2026-09-18",
+    "amount": 123632.2,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1015,
+    "org_id": 8,
+    "date": "2026-03-20",
+    "amount": 157047.79,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1016,
+    "org_id": 28,
+    "date": "2026-02-02",
+    "amount": 96499.44,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1017,
+    "org_id": 30,
+    "date": "2026-09-28",
+    "amount": 63227.82,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1018,
+    "org_id": 1,
+    "date": "2026-02-28",
+    "amount": 170586.74,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1019,
+    "org_id": 18,
+    "date": "2026-06-24",
+    "amount": 28332.27,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1020,
+    "org_id": 30,
+    "date": "2026-01-02",
+    "amount": 238477.07,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1021,
+    "org_id": 17,
+    "date": "2026-09-14",
+    "amount": 190609.57,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1022,
+    "org_id": 7,
+    "date": "2026-06-02",
+    "amount": 210496.5,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1023,
+    "org_id": 13,
+    "date": "2026-03-20",
+    "amount": 93791.51,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1024,
+    "org_id": 34,
+    "date": "2026-01-01",
+    "amount": 149936.67,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1025,
+    "org_id": 8,
+    "date": "2026-07-05",
+    "amount": 219741.11,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1026,
+    "org_id": 20,
+    "date": "2026-05-03",
+    "amount": 14952.33,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1027,
+    "org_id": 6,
+    "date": "2026-02-13",
+    "amount": 183110.94,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1028,
+    "org_id": 49,
+    "date": "2026-09-30",
+    "amount": 191575.69,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1029,
+    "org_id": 31,
+    "date": "2026-10-09",
+    "amount": 41699.18,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1030,
+    "org_id": 39,
+    "date": "2026-08-05",
+    "amount": 241108.55,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1031,
+    "org_id": 49,
+    "date": "2026-04-13",
+    "amount": 178380.77,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1032,
+    "org_id": 43,
+    "date": "2026-07-11",
+    "amount": 109805.97,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1033,
+    "org_id": 8,
+    "date": "2026-05-07",
+    "amount": 56561.99,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1034,
+    "org_id": 38,
+    "date": "2026-10-11",
+    "amount": 57913.63,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1035,
+    "org_id": 5,
+    "date": "2026-01-31",
+    "amount": 57620.98,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1036,
+    "org_id": 22,
+    "date": "2026-02-06",
+    "amount": 128781.95,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1037,
+    "org_id": 32,
+    "date": "2026-04-20",
+    "amount": 135038.87,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1038,
+    "org_id": 37,
+    "date": "2026-08-31",
+    "amount": 61127.81,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1039,
+    "org_id": 27,
+    "date": "2026-04-08",
+    "amount": 24034.29,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1040,
+    "org_id": 23,
+    "date": "2026-08-05",
+    "amount": 103070.02,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1041,
+    "org_id": 4,
+    "date": "2026-02-20",
+    "amount": 15622.86,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1042,
+    "org_id": 7,
+    "date": "2026-05-08",
+    "amount": 48301.72,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1043,
+    "org_id": 9,
+    "date": "2026-08-05",
+    "amount": 46280.26,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1044,
+    "org_id": 5,
+    "date": "2026-08-15",
+    "amount": 202101.55,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1045,
+    "org_id": 7,
+    "date": "2026-01-26",
+    "amount": 163210.15,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1046,
+    "org_id": 1,
+    "date": "2026-02-17",
+    "amount": 231628.56,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1047,
+    "org_id": 11,
+    "date": "2026-07-28",
+    "amount": 121667.46,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1048,
+    "org_id": 26,
+    "date": "2026-01-31",
+    "amount": 41576.96,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1049,
+    "org_id": 25,
+    "date": "2026-05-16",
+    "amount": 231666.26,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1050,
+    "org_id": 19,
+    "date": "2026-08-05",
+    "amount": 174299.58,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1051,
+    "org_id": 36,
+    "date": "2026-09-07",
+    "amount": 39121.81,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1052,
+    "org_id": 4,
+    "date": "2026-10-05",
+    "amount": 15708.91,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1053,
+    "org_id": 4,
+    "date": "2026-09-02",
+    "amount": 125961.17,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1054,
+    "org_id": 11,
+    "date": "2026-01-30",
+    "amount": 240214.34,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1055,
+    "org_id": 12,
+    "date": "2026-02-05",
+    "amount": 148961.26,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1056,
+    "org_id": 16,
+    "date": "2026-07-26",
+    "amount": 30411.71,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1057,
+    "org_id": 16,
+    "date": "2026-01-21",
+    "amount": 155035.69,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1058,
+    "org_id": 38,
+    "date": "2026-10-17",
+    "amount": 130934.29,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1059,
+    "org_id": 14,
+    "date": "2026-06-10",
+    "amount": 60052.15,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1060,
+    "org_id": 43,
+    "date": "2026-06-03",
+    "amount": 114577.53,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1061,
+    "org_id": 5,
+    "date": "2026-01-05",
+    "amount": 114842.24,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1062,
+    "org_id": 7,
+    "date": "2026-02-07",
+    "amount": 134639.78,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1063,
+    "org_id": 9,
+    "date": "2026-06-28",
+    "amount": 220275.61,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1064,
+    "org_id": 24,
+    "date": "2026-05-26",
+    "amount": 39857.83,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1065,
+    "org_id": 46,
+    "date": "2026-06-04",
+    "amount": 153113.6,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1066,
+    "org_id": 42,
+    "date": "2026-09-28",
+    "amount": 2451.87,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1067,
+    "org_id": 20,
+    "date": "2026-02-23",
+    "amount": 234763.04,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1068,
+    "org_id": 8,
+    "date": "2026-02-24",
+    "amount": 185732.96,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1069,
+    "org_id": 19,
+    "date": "2026-04-18",
+    "amount": 179544.24,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1070,
+    "org_id": 41,
+    "date": "2026-05-16",
+    "amount": 126599.56,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1071,
+    "org_id": 4,
+    "date": "2026-02-17",
+    "amount": 158753.97,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1072,
+    "org_id": 3,
+    "date": "2026-01-02",
+    "amount": 83722.36,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1073,
+    "org_id": 17,
+    "date": "2026-03-24",
+    "amount": 185437.11,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1074,
+    "org_id": 28,
+    "date": "2026-10-15",
+    "amount": 2912.59,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1075,
+    "org_id": 45,
+    "date": "2026-03-18",
+    "amount": 136624.78,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1076,
+    "org_id": 38,
+    "date": "2026-10-10",
+    "amount": 37449.4,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1077,
+    "org_id": 20,
+    "date": "2026-07-06",
+    "amount": 224795.88,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1078,
+    "org_id": 3,
+    "date": "2026-07-03",
+    "amount": 52914.1,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1079,
+    "org_id": 7,
+    "date": "2026-07-01",
+    "amount": 195139.0,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1080,
+    "org_id": 27,
+    "date": "2026-03-21",
+    "amount": 231478.07,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1081,
+    "org_id": 11,
+    "date": "2026-04-01",
+    "amount": 220413.34,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1082,
+    "org_id": 48,
+    "date": "2026-06-20",
+    "amount": 195705.43,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1083,
+    "org_id": 43,
+    "date": "2026-05-08",
+    "amount": 67068.02,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1084,
+    "org_id": 7,
+    "date": "2026-07-15",
+    "amount": 218105.61,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1085,
+    "org_id": 15,
+    "date": "2026-04-13",
+    "amount": 204238.36,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1086,
+    "org_id": 20,
+    "date": "2026-04-27",
+    "amount": 56119.43,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1087,
+    "org_id": 26,
+    "date": "2026-06-18",
+    "amount": 70011.46,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1088,
+    "org_id": 18,
+    "date": "2026-06-29",
+    "amount": 160549.69,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1089,
+    "org_id": 35,
+    "date": "2026-06-19",
+    "amount": 234839.67,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1090,
+    "org_id": 17,
+    "date": "2026-04-02",
+    "amount": 145357.14,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1091,
+    "org_id": 3,
+    "date": "2026-02-25",
+    "amount": 149344.53,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1092,
+    "org_id": 21,
+    "date": "2026-08-12",
+    "amount": 151749.11,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1093,
+    "org_id": 25,
+    "date": "2026-04-08",
+    "amount": 64053.27,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1094,
+    "org_id": 1,
+    "date": "2026-09-24",
+    "amount": 231431.0,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1095,
+    "org_id": 47,
+    "date": "2026-04-11",
+    "amount": 91373.26,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1096,
+    "org_id": 43,
+    "date": "2026-06-19",
+    "amount": 155977.27,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1097,
+    "org_id": 8,
+    "date": "2026-06-03",
+    "amount": 127027.06,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1098,
+    "org_id": 21,
+    "date": "2026-07-26",
+    "amount": 174453.5,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1099,
+    "org_id": 13,
+    "date": "2026-08-04",
+    "amount": 166399.89,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1100,
+    "org_id": 48,
+    "date": "2026-03-31",
+    "amount": 154070.97,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1101,
+    "org_id": 36,
+    "date": "2026-01-01",
+    "amount": 76316.8,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1102,
+    "org_id": 38,
+    "date": "2026-06-14",
+    "amount": 116514.55,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1103,
+    "org_id": 14,
+    "date": "2026-09-19",
+    "amount": 118559.95,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1104,
+    "org_id": 48,
+    "date": "2026-03-28",
+    "amount": 164883.26,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1105,
+    "org_id": 43,
+    "date": "2026-06-21",
+    "amount": 23800.11,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1106,
+    "org_id": 16,
+    "date": "2026-06-08",
+    "amount": 56547.85,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1107,
+    "org_id": 2,
+    "date": "2026-01-24",
+    "amount": 61588.21,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1108,
+    "org_id": 5,
+    "date": "2026-08-22",
+    "amount": 103903.03,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1109,
+    "org_id": 13,
+    "date": "2026-07-16",
+    "amount": 123847.1,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1110,
+    "org_id": 42,
+    "date": "2026-01-03",
+    "amount": 223218.63,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1111,
+    "org_id": 7,
+    "date": "2026-08-06",
+    "amount": 55100.86,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1112,
+    "org_id": 45,
+    "date": "2026-09-23",
+    "amount": 116405.2,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1113,
+    "org_id": 8,
+    "date": "2026-08-22",
+    "amount": 33768.11,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1114,
+    "org_id": 34,
+    "date": "2026-10-14",
+    "amount": 149065.35,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1115,
+    "org_id": 29,
+    "date": "2026-09-16",
+    "amount": 106971.82,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1116,
+    "org_id": 29,
+    "date": "2026-03-23",
+    "amount": 186042.03,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1117,
+    "org_id": 17,
+    "date": "2026-05-07",
+    "amount": 210045.79,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1118,
+    "org_id": 34,
+    "date": "2026-09-06",
+    "amount": 156873.74,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1119,
+    "org_id": 5,
+    "date": "2026-05-27",
+    "amount": 59006.15,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1120,
+    "org_id": 35,
+    "date": "2026-02-11",
+    "amount": 35024.33,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1121,
+    "org_id": 45,
+    "date": "2026-03-20",
+    "amount": 176751.58,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1122,
+    "org_id": 27,
+    "date": "2026-06-19",
+    "amount": 135881.48,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1123,
+    "org_id": 14,
+    "date": "2026-08-04",
+    "amount": 97674.46,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1124,
+    "org_id": 45,
+    "date": "2026-01-11",
+    "amount": 214254.64,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1125,
+    "org_id": 25,
+    "date": "2026-09-02",
+    "amount": 1971.07,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1126,
+    "org_id": 49,
+    "date": "2026-07-19",
+    "amount": 213435.26,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1127,
+    "org_id": 27,
+    "date": "2026-10-03",
+    "amount": 187005.16,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1128,
+    "org_id": 39,
+    "date": "2026-04-23",
+    "amount": 122313.25,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1129,
+    "org_id": 32,
+    "date": "2026-01-15",
+    "amount": 97519.87,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1130,
+    "org_id": 26,
+    "date": "2026-03-26",
+    "amount": 210206.16,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1131,
+    "org_id": 40,
+    "date": "2026-10-01",
+    "amount": 7228.13,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1132,
+    "org_id": 37,
+    "date": "2026-01-14",
+    "amount": 21444.89,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1133,
+    "org_id": 30,
+    "date": "2026-04-04",
+    "amount": 13046.02,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1134,
+    "org_id": 14,
+    "date": "2026-08-21",
+    "amount": 82048.03,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1135,
+    "org_id": 25,
+    "date": "2026-05-23",
+    "amount": 188126.45,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1136,
+    "org_id": 17,
+    "date": "2026-02-11",
+    "amount": 117841.56,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1137,
+    "org_id": 4,
+    "date": "2026-06-29",
+    "amount": 56443.43,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1138,
+    "org_id": 42,
+    "date": "2026-01-21",
+    "amount": 188681.18,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1139,
+    "org_id": 13,
+    "date": "2026-01-11",
+    "amount": 155523.25,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1140,
+    "org_id": 31,
+    "date": "2026-02-28",
+    "amount": 141210.41,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1141,
+    "org_id": 45,
+    "date": "2026-05-12",
+    "amount": 191841.08,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1142,
+    "org_id": 39,
+    "date": "2026-02-28",
+    "amount": 194559.08,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1143,
+    "org_id": 20,
+    "date": "2026-02-25",
+    "amount": 144881.84,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1144,
+    "org_id": 37,
+    "date": "2026-07-12",
+    "amount": 99465.28,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1145,
+    "org_id": 5,
+    "date": "2026-05-05",
+    "amount": 25924.38,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1146,
+    "org_id": 44,
+    "date": "2026-03-03",
+    "amount": 199158.69,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1147,
+    "org_id": 3,
+    "date": "2026-06-27",
+    "amount": 133419.94,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1148,
+    "org_id": 5,
+    "date": "2026-09-17",
+    "amount": 162062.04,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1149,
+    "org_id": 27,
+    "date": "2026-09-08",
+    "amount": 26831.95,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1150,
+    "org_id": 41,
+    "date": "2026-08-24",
+    "amount": 176973.51,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1151,
+    "org_id": 47,
+    "date": "2026-09-25",
+    "amount": 241385.7,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1152,
+    "org_id": 35,
+    "date": "2026-09-05",
+    "amount": 116486.01,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1153,
+    "org_id": 38,
+    "date": "2026-05-18",
+    "amount": 80914.99,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1154,
+    "org_id": 6,
+    "date": "2026-05-23",
+    "amount": 220466.98,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1155,
+    "org_id": 30,
+    "date": "2026-10-19",
+    "amount": 152777.76,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1156,
+    "org_id": 2,
+    "date": "2026-09-11",
+    "amount": 212812.73,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1157,
+    "org_id": 14,
+    "date": "2026-07-01",
+    "amount": 199559.17,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1158,
+    "org_id": 39,
+    "date": "2026-05-22",
+    "amount": 139169.86,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1159,
+    "org_id": 13,
+    "date": "2026-02-13",
+    "amount": 60718.33,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1160,
+    "org_id": 36,
+    "date": "2026-05-04",
+    "amount": 172807.03,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1161,
+    "org_id": 32,
+    "date": "2026-08-18",
+    "amount": 198336.75,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1162,
+    "org_id": 15,
+    "date": "2026-07-27",
+    "amount": 173100.9,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1163,
+    "org_id": 38,
+    "date": "2026-07-08",
+    "amount": 118578.49,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1164,
+    "org_id": 28,
+    "date": "2026-10-09",
+    "amount": 83032.43,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1165,
+    "org_id": 18,
+    "date": "2026-06-06",
+    "amount": 63225.22,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1166,
+    "org_id": 13,
+    "date": "2026-06-11",
+    "amount": 30328.91,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1167,
+    "org_id": 49,
+    "date": "2026-04-05",
+    "amount": 48289.47,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1168,
+    "org_id": 18,
+    "date": "2026-09-26",
+    "amount": 149399.29,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1169,
+    "org_id": 13,
+    "date": "2026-06-01",
+    "amount": 57257.05,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1170,
+    "org_id": 1,
+    "date": "2026-10-01",
+    "amount": 32082.45,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1171,
+    "org_id": 4,
+    "date": "2026-10-11",
+    "amount": 73388.09,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1172,
+    "org_id": 41,
+    "date": "2026-09-09",
+    "amount": 26095.62,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1173,
+    "org_id": 19,
+    "date": "2026-08-29",
+    "amount": 119939.2,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1174,
+    "org_id": 4,
+    "date": "2026-05-10",
+    "amount": 235295.37,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1175,
+    "org_id": 5,
+    "date": "2026-07-25",
+    "amount": 123190.77,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1176,
+    "org_id": 44,
+    "date": "2026-01-28",
+    "amount": 38355.89,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1177,
+    "org_id": 20,
+    "date": "2026-02-13",
+    "amount": 248482.57,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1178,
+    "org_id": 49,
+    "date": "2026-08-02",
+    "amount": 151776.25,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1179,
+    "org_id": 15,
+    "date": "2026-09-25",
+    "amount": 95404.32,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1180,
+    "org_id": 20,
+    "date": "2026-08-08",
+    "amount": 76692.37,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1181,
+    "org_id": 40,
+    "date": "2026-02-20",
+    "amount": 236923.75,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1182,
+    "org_id": 14,
+    "date": "2026-05-16",
+    "amount": 165276.82,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1183,
+    "org_id": 12,
+    "date": "2026-10-10",
+    "amount": 19228.68,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1184,
+    "org_id": 29,
+    "date": "2026-08-29",
+    "amount": 73169.19,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1185,
+    "org_id": 46,
+    "date": "2026-05-25",
+    "amount": 175895.4,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1186,
+    "org_id": 44,
+    "date": "2026-04-30",
+    "amount": 231015.81,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1187,
+    "org_id": 41,
+    "date": "2026-04-12",
+    "amount": 106572.17,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1188,
+    "org_id": 42,
+    "date": "2026-03-18",
+    "amount": 227148.66,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1189,
+    "org_id": 5,
+    "date": "2026-01-31",
+    "amount": 41897.74,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1190,
+    "org_id": 48,
+    "date": "2026-10-19",
+    "amount": 230337.54,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1191,
+    "org_id": 30,
+    "date": "2026-06-05",
+    "amount": 175083.55,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1192,
+    "org_id": 33,
+    "date": "2026-10-04",
+    "amount": 123701.91,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1193,
+    "org_id": 3,
+    "date": "2026-08-10",
+    "amount": 183766.21,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1194,
+    "org_id": 2,
+    "date": "2026-02-16",
+    "amount": 57616.64,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1195,
+    "org_id": 37,
+    "date": "2026-01-11",
+    "amount": 249893.32,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1196,
+    "org_id": 18,
+    "date": "2026-01-21",
+    "amount": 190895.7,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1197,
+    "org_id": 34,
+    "date": "2026-08-15",
+    "amount": 229060.16,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1198,
+    "org_id": 38,
+    "date": "2026-08-12",
+    "amount": 158878.79,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1199,
+    "org_id": 6,
+    "date": "2026-08-29",
+    "amount": 87316.28,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1200,
+    "org_id": 43,
+    "date": "2026-02-23",
+    "amount": 214504.41,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1201,
+    "org_id": 45,
+    "date": "2026-09-11",
+    "amount": 72410.34,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1202,
+    "org_id": 49,
+    "date": "2026-10-09",
+    "amount": 9655.93,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1203,
+    "org_id": 17,
+    "date": "2026-06-15",
+    "amount": 29422.44,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1204,
+    "org_id": 33,
+    "date": "2026-01-01",
+    "amount": 164586.27,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1205,
+    "org_id": 27,
+    "date": "2026-01-28",
+    "amount": 47301.84,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1206,
+    "org_id": 49,
+    "date": "2026-09-13",
+    "amount": 156539.48,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1207,
+    "org_id": 14,
+    "date": "2026-05-17",
+    "amount": 137530.3,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1208,
+    "org_id": 29,
+    "date": "2026-09-06",
+    "amount": 30795.81,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1209,
+    "org_id": 39,
+    "date": "2026-05-03",
+    "amount": 177590.81,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1210,
+    "org_id": 1,
+    "date": "2026-10-10",
+    "amount": 102293.68,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1211,
+    "org_id": 8,
+    "date": "2026-08-25",
+    "amount": 236791.66,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1212,
+    "org_id": 10,
+    "date": "2026-09-13",
+    "amount": 233196.94,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1213,
+    "org_id": 46,
+    "date": "2026-05-20",
+    "amount": 104164.84,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1214,
+    "org_id": 31,
+    "date": "2026-05-05",
+    "amount": 114468.22,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1215,
+    "org_id": 13,
+    "date": "2026-09-18",
+    "amount": 186699.99,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1216,
+    "org_id": 5,
+    "date": "2026-05-22",
+    "amount": 193282.45,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1217,
+    "org_id": 22,
+    "date": "2026-09-17",
+    "amount": 67159.58,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1218,
+    "org_id": 47,
+    "date": "2026-06-02",
+    "amount": 209450.24,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1219,
+    "org_id": 43,
+    "date": "2026-09-08",
+    "amount": 216382.52,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1220,
+    "org_id": 31,
+    "date": "2026-06-26",
+    "amount": 83443.77,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1221,
+    "org_id": 25,
+    "date": "2026-08-22",
+    "amount": 233246.64,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1222,
+    "org_id": 45,
+    "date": "2026-05-03",
+    "amount": 143163.51,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1223,
+    "org_id": 27,
+    "date": "2026-01-23",
+    "amount": 79884.99,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1224,
+    "org_id": 25,
+    "date": "2026-07-17",
+    "amount": 247109.29,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1225,
+    "org_id": 42,
+    "date": "2026-03-19",
+    "amount": 124084.5,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1226,
+    "org_id": 33,
+    "date": "2026-06-19",
+    "amount": 217490.23,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1227,
+    "org_id": 29,
+    "date": "2026-02-21",
+    "amount": 131724.8,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1228,
+    "org_id": 47,
+    "date": "2026-03-15",
+    "amount": 102789.67,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1229,
+    "org_id": 10,
+    "date": "2026-02-08",
+    "amount": 117637.9,
+    "currency": "EUR"
+  },
+  {
+    "transaction_id": 1230,
+    "org_id": 22,
+    "date": "2026-07-23",
+    "amount": 162634.24,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1231,
+    "org_id": 44,
+    "date": "2026-10-01",
+    "amount": 95312.34,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1232,
+    "org_id": 46,
+    "date": "2026-09-07",
+    "amount": 218159.56,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1233,
+    "org_id": 5,
+    "date": "2026-05-01",
+    "amount": 157974.67,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": 1234,
+    "org_id": 15,
+    "date": "2026-02-16",
+    "amount": 108775.88,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1235,
+    "org_id": 41,
+    "date": "2026-02-21",
+    "amount": 111197.8,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1236,
+    "org_id": 2,
+    "date": "2026-01-24",
+    "amount": 81431.48,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1237,
+    "org_id": 23,
+    "date": "2026-07-11",
+    "amount": 107956.35,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1238,
+    "org_id": 27,
+    "date": "2026-10-17",
+    "amount": 170609.19,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1239,
+    "org_id": 12,
+    "date": "2026-02-10",
+    "amount": 152568.2,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1240,
+    "org_id": 44,
+    "date": "2026-05-04",
+    "amount": 124667.98,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1241,
+    "org_id": 15,
+    "date": "2026-08-25",
+    "amount": 159657.21,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1242,
+    "org_id": 43,
+    "date": "2026-01-05",
+    "amount": 224777.68,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1243,
+    "org_id": 19,
+    "date": "2026-10-07",
+    "amount": 39914.92,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1244,
+    "org_id": 23,
+    "date": "2026-06-03",
+    "amount": 159915.21,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1245,
+    "org_id": 17,
+    "date": "2026-08-22",
+    "amount": 211403.33,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1246,
+    "org_id": 25,
+    "date": "2026-09-05",
+    "amount": 27109.99,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1247,
+    "org_id": 23,
+    "date": "2026-06-01",
+    "amount": 248176.66,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1248,
+    "org_id": 43,
+    "date": "2026-07-22",
+    "amount": 68982.85,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1249,
+    "org_id": 44,
+    "date": "2026-01-26",
+    "amount": 227698.93,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1250,
+    "org_id": 19,
+    "date": "2026-04-28",
+    "amount": 151962.72,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1251,
+    "org_id": 999,
+    "date": "2026-10-05",
+    "amount": 12500.0,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1252,
+    "org_id": 998,
+    "date": "2026-10-08",
+    "amount": 8700.0,
+    "currency": "RUB"
+  },
+  {
+    "transaction_id": 1251,
+    "org_id": 999,
+    "date": "2026-10-05",
+    "amount": 12500.0,
+    "currency": "RUB"
+  }
+]
