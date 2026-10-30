@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import sqlite3
 import numpy as np
+import os
 
 
 # Этап C. Загрузка источников в Python.
@@ -157,7 +158,10 @@ def merge_sql():
     """, conn)
 
     full = pd.read_sql_query("""
-        SELECT *
+        SELECT
+            o.org_id, o.org_name, o.sector, o.city_id,
+            t.transaction_id, t.date, t.amount, t.currency,
+            c.city_name, c.region_name
         FROM organizations o
         LEFT JOIN transactions t
             ON o.org_id = t.org_id
@@ -223,6 +227,31 @@ def aggregate_data(pd_table):
     print(f'\nАгрегаты полностью совпадают: {aggregates_match}')
 
     return org_stats_sql, org_stats_pd
+
+
+# Этап G. Построение витрины.
+def create_datamart(full_data):
+    aggregated = full_data.groupby([
+        'org_id', 'org_name', 'sector', 'city_name', 'region_name'
+    ]).agg(
+        transactions_count=('transaction_id', 'count'),
+        total_amount=('amount', 'sum'),
+        avg_amount=('amount', 'mean'),
+        last_transaction_date=('date', 'max')
+    ).reset_index()
+
+    print(aggregated.head())
+    print(f'\nРазмер: {aggregated.shape}')
+
+    return aggregated
+
+
+def save_datamart(datamart):
+    os.makedirs('data/processed', exist_ok=True)
+    datamart.to_csv('data/processed/data_mart.csv', index=False)
+    datamart.to_parquet('data/processed/data_mart.parquet', index=False)
+    print('\nФайлы сохранены в data/processed:')
+    print(os.listdir('data/processed'))
 
 
 if __name__ == '__main__':
@@ -312,3 +341,9 @@ if __name__ == '__main__':
     print('-' * 40)
     print('Агрегация через SQL и Pandas.')
     org_stats_sql, org_stats_pd = aggregate_data(pd_table=transactions)
+
+    print('-' * 40)
+    print('Построенная витрина:')
+    datamart = create_datamart(full)
+    save_datamart(datamart)
+    
