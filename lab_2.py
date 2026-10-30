@@ -94,6 +94,38 @@ def check_cardinality(left_df, right_df, left_key, right_key):
     print(f'Кардинальность связи: {cardinality}')
 
 
+def merge_df(left_df, right_df, left_key, right_key, how='inner', indicator=True, validate=None):
+    merged_df = pd.merge(
+        left_df, right_df,
+        left_on=left_key, right_on=right_key,
+        how=how,
+        indicator=indicator,
+        validate=validate
+    )
+
+    # отдельное диагностическое объединение,
+    # чтобы увидеть все три категории строк
+    diagnostic = pd.merge(
+        left_df,
+        right_df,
+        left_on=left_key,
+        right_on=right_key,
+        how='outer',
+        indicator=True,
+        validate=validate
+    )
+
+    print(f'Тип объединения: {how}')
+    print(f'Строк в левой таблице: {left_df.shape[0]}')
+    print(f'Строк в правой таблице: {right_df.shape[0]}')
+    print(f'Строк после объединения: {merged_df.shape[0]}')
+    print('Результат сравнения:')
+    print(diagnostic['_merge'].value_counts())
+    print()
+
+    return merged_df
+
+
 if __name__ == '__main__':
     organizations, transactions, cities = load_sources()
     print('Загрузка источников завершена')
@@ -126,4 +158,44 @@ if __name__ == '__main__':
     check_cardinality(
         organizations, cities,
         'city_id', 'city_id'
+    )
+
+    print('-' * 40)
+    print(f'Убираем полный дубликат из транзакций перед merge...')
+    transactions = transactions.drop_duplicates()
+
+    print('-' * 40)
+    print('Объединение организаций и транзакций INNER:')
+    org_transactions_inner = merge_df(
+        organizations,
+        transactions,
+        'org_id',
+        'org_id',
+        how='inner',
+        validate='one_to_many'
+    )
+
+    print('Объединение организаций и транзакций LEFT:')
+    org_transactions_left = merge_df(
+        organizations,
+        transactions,
+        'org_id',
+        'org_id',
+        how='left',
+        validate='one_to_many'
+    )
+
+    print('Объединение набора с городами LEFT:')
+    # переименовываем столбец предыдущего индикатора
+    # чтобы можно было создать новый
+    org_transactions_left = org_transactions_left.rename(
+        columns={'_merge': 'org_transaction_merge'}
+    )
+    full_data = merge_df(
+        org_transactions_left,
+        cities,
+        'city_id',
+        'city_id',
+        how='left',
+        validate='many_to_one'
     )
