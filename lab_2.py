@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import sqlite3
+import numpy as np
 
 
 # Этап C. Загрузка источников в Python.
@@ -94,6 +95,7 @@ def check_cardinality(left_df, right_df, left_key, right_key):
     print(f'Кардинальность связи: {cardinality}')
 
 
+# Этап E. Объединение средствами pandas. 
 def merge_df(left_df, right_df, left_key, right_key, how='inner', indicator=True, validate=None):
     merged_df = pd.merge(
         left_df, right_df,
@@ -124,6 +126,103 @@ def merge_df(left_df, right_df, left_key, right_key, how='inner', indicator=True
     print()
 
     return merged_df
+
+
+# Этап F. SQL JOIN. 
+def load_to_sql(df, name):
+    conn = sqlite3.connect('data/raw/cleaned.db')
+    df.to_sql(
+        name=name,
+        con=conn,
+        if_exists='replace',
+        index=False
+    )
+    conn.close()
+
+
+def merge_sql():
+    conn = sqlite3.connect('data/raw/cleaned.db')
+    org_trans_inner = pd.read_sql_query("""
+        SELECT *
+        FROM organizations o
+        INNER JOIN transactions t
+            ON o.org_id = t.org_id;
+    """, conn)
+
+    org_trans_left = pd.read_sql_query("""
+        SELECT *
+        FROM organizations o
+        LEFT JOIN transactions t
+            ON o.org_id = t.org_id;
+    """, conn)
+
+    full = pd.read_sql_query("""
+        SELECT *
+        FROM organizations o
+        LEFT JOIN transactions t
+            ON o.org_id = t.org_id
+        LEFT JOIN cities c
+            ON o.city_id = c.city_id;
+    """, conn)
+
+    print(f'Количество строк INNER JOIN организаций и транзакций: {org_trans_inner.shape[0]}')
+    print(f'Количество строк LEFT JOIN организаций и транзакций: {org_trans_left.shape[0]}')
+    print(f'Количество строк LEFT JOIN набора и городов: {full.shape[0]}')
+    
+    conn.close()
+
+    return org_trans_inner, org_trans_left, full
+
+
+def aggregate_data(pd_table):
+    conn = sqlite3.connect('data/raw/cleaned.db')
+
+    org_stats_sql = pd.read_sql_query("""
+        SELECT
+            org_id,
+            COUNT(*) AS transactions_count,
+            SUM(amount) AS total_amount,
+            AVG(amount) AS avg_amount
+        FROM transactions
+        GROUP BY org_id;
+    """, conn)
+
+    conn.close()
+
+    org_stats_pd = pd_table.groupby('org_id').agg(
+        transactions_count=('transaction_id', 'count'),
+        total_amount=('amount', 'sum'),
+        avg_amount=('amount', 'mean')
+    ).reset_index()
+
+    print('SQL:')
+    print(org_stats_sql.head())
+
+    print('\nPandas:')
+    print(org_stats_pd.head())
+
+    print('\nРазмер SQL:', org_stats_sql.shape)
+    print('Размер Pandas:', org_stats_pd.shape)
+
+    # проверяем соврадение
+    # для целочисленныйх столбцов строго, для вычесленных - с погрешностью
+    org_stats_pd['org_id'] = org_stats_pd['org_id'].astype('int64')
+    sql_sorted = org_stats_sql.sort_values('org_id').reset_index(drop=True)
+    pd_sorted = org_stats_pd.sort_values('org_id').reset_index(drop=True)
+    aggregates_match = (
+        sql_sorted[['org_id', 'transactions_count']].equals(
+            pd_sorted[['org_id', 'transactions_count']]
+        )
+        and np.allclose(
+            sql_sorted[['total_amount', 'avg_amount']],
+            pd_sorted[['total_amount', 'avg_amount']],
+            rtol=1e-9,  # относительная разница
+            atol=1e-9   # макс. абсолютная разница
+        )
+    )
+    print(f'\nАгрегаты полностью совпадают: {aggregates_match}')
+
+    return org_stats_sql, org_stats_pd
 
 
 if __name__ == '__main__':
@@ -199,3 +298,17 @@ if __name__ == '__main__':
         how='left',
         validate='many_to_one'
     )
+
+    print('-' * 40)
+    load_to_sql(organizations, 'organizations')
+    load_to_sql(transactions, 'transactions')
+    load_to_sql(cities, 'cities')
+    print('Загрузка таблиц в SQL завершена.')
+    
+    print('-' * 40)
+    print('Результаты объединения через SQL:\n')
+    org_trans_inner, org_trans_left, full = merge_sql()
+
+    print('-' * 40)
+    print('Агрегация через SQL и Pandas.')
+    org_stats_sql, org_stats_pd = aggregate_data(pd_table=transactions)
