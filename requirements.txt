@@ -1,0 +1,7 @@
+pandas
+requests
+numpy
+matplotlib
+pyarrow
+fastapi
+uvicorn
