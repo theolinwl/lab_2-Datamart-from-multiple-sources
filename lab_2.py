@@ -3,6 +3,7 @@ import requests
 import sqlite3
 import numpy as np
 import os
+import matplotlib.pyplot as plt
 
 
 # Этап C. Загрузка источников в Python.
@@ -254,6 +255,45 @@ def save_datamart(datamart):
     print(os.listdir('data/processed'))
 
 
+# Этап H. Визуализация и BI.
+def visualise(datamart):
+    os.makedirs('results/plots', exist_ok=True)
+    # Общая сумма операция по регионам
+    region_stats = datamart.groupby('region_name')['total_amount'].sum().sort_values(ascending=False)
+
+    plt.figure(figsize=(10, 5))
+    region_stats.plot(kind='bar')
+
+    plt.title('Общая сумма операций по регионам')
+    plt.xlabel('Регион')
+    plt.ylabel('Сумма операций')
+    plt.xticks(rotation=45, ha='right')
+    plt.ticklabel_format(axis='y', style='plain')
+    plt.tight_layout()
+
+    plt.savefig('results/plots/region_totals.png')
+    plt.close()
+
+    # ТОП организаций по общей сумме
+    top_orgs = datamart.nlargest(10, 'total_amount')
+
+    plt.figure(figsize=(12, 6))
+    plt.bar(top_orgs['org_name'], top_orgs['total_amount'])
+
+    plt.title('TOP-10 организаций по общей сумме операций')
+    plt.xlabel('Организация')
+    plt.ylabel('Сумма операций')
+    plt.xticks(rotation=45, ha='right')
+    plt.ticklabel_format(axis='y', style='plain')
+    plt.tight_layout()
+
+    plt.savefig('results/plots/top_organizations.png')
+    plt.close()
+
+    print('\nПостроенные графики сохранены в results/plots')
+    print(os.listdir('results/plots'))
+
+
 if __name__ == '__main__':
     organizations, transactions, cities = load_sources()
     print('Загрузка источников завершена')
@@ -346,4 +386,8 @@ if __name__ == '__main__':
     print('Построенная витрина:')
     datamart = create_datamart(full)
     save_datamart(datamart)
+
+    print('-' * 40)
+    print('Построенние графиков.')
+    visualise(datamart)
     
